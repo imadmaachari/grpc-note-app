@@ -61,8 +61,8 @@ Compile the proto files by running the below command :
 ```
 ### Screenshots
 - Proto file :
-![proto file](https://github.com/imadmaachari/grpc-note-app/blob/Master/proto.png?raw=true)
+![proto file](https://github.com/imadmaachari/grpc-note-app/blob/main/proto.png?raw=true)
 - Server implementation :
-![server file](https://github.com/imadmaachari/grpc-note-app/blob/Master/server.png?raw=true)
+![server file](https://github.com/imadmaachari/grpc-note-app/blob/main/server.png?raw=true)
 - Client implementation :
-![client file](https://github.com/imadmaachari/grpc-note-app/blob/Master/client.png?raw=true)
+![client file](https://github.com/imadmaachari/grpc-note-app/blob/main/client.png?raw=true)
