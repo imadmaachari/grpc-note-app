@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package prototype;
+option go_package = "./note/pb";
+
+message Note {
+  string student_uuid = 1;
+  string instructor = 2;
+  int32 subject = 3;
+  optional string language = 4;
+}
+
+message CreateNoteRequest {  Note note = 1; }
+message CreateNoteResponse { Note note = 1; }
+message GetNoteListRequest {}
+message GetNoteListResponse { repeated Note notes = 1; }
+
+service NoteService {
+  rpc CreateNoteList(CreateNoteRequest) returns (CreateNoteResponse) {}
+  rpc GetNoteList(GetNoteListRequest) returns (GetNoteListResponse) {}
+}

@@ -55,7 +55,13 @@ mkdir "proto" "client/cli" "server"
     └── main.go
 
 ```
+Compile the proto files by running the below command :
+```bash
+ protoc prototype/*.proto -I. --go_out=plugins=grpc:prototype
+```
 ### Screenshots
 - Proto file :
+
 - Server implementation :
+
 - Client implementation :
