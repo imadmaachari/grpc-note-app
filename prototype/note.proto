@@ -6,8 +6,8 @@ option go_package = "./note/pb";
 message Note {
   string student_uuid = 1;
   string instructor = 2;
-  int32 subject = 3;
-  optional string language = 4;
+  int32 mark = 3;
+  string language = 4;
 }
 
 message CreateNoteRequest {  Note note = 1; }

@@ -28,7 +28,7 @@ func (s *server) GetNoteList(ctx context.Context, req *pb.GetNoteListRequest) (*
 		u := pb.Note{
 			StudentUuid: n.StudentUuid,
 			Instructor:  n.Instructor,
-			Subject:     n.Subject,
+			Mark:        n.Mark,
 			Language:    n.Language,
 		}
 		res = append(res, &u)
